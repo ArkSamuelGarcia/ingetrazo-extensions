@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-21T20:40Z",
+ "generated": "2026-10-21T20:41Z",
  "tags": [
   "analysis",
   "architecture",
@@ -520,6 +520,34 @@
    "updated_at": "2026-10-10T13:14Z"
   },
   {
+   "id": "crear_cara",
+   "version": "1.0.0",
+   "author": "jrrobredo",
+   "author_url": "https://github.com/jrrobredo",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/jrrobredo/ingetrazo-crear-cara",
+   "download": "https://raw.githubusercontent.com/jrrobredo/ingetrazo-crear-cara/b74236a24300277ad6ae359b88c2c0f70f442227/crear_cara.py",
+   "sha256": "a4d00b791097847ea78bd1e785a65faba791b8a829c95cf691797789e6348a4a",
+   "ingetrazo": "0.5.8",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "name": {
+    "es": "Crear cara desde aristas",
+    "en": "Face from edges",
+    "pt": "Criar face a partir de arestas"
+   },
+   "summary": {
+    "es": "Genera una cara plana a partir de una selección de aristas que forman un polígono cerrado.",
+    "en": "Creates a flat face from a selection of edges that form a closed polygon.",
+    "pt": "Cria uma face plana a partir de uma seleção de arestas que formam um polígono fechado."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-21T20:41Z",
+   "updated_at": "2026-10-21T20:41Z"
+  },
+  {
    "id": "croquis",
    "version": "0.14.0",
    "author": "Victor Crespo",
@@ -783,6 +811,36 @@
    "updated_at": "2026-10-20T19:13Z"
   },
   {
+   "id": "align_tool",
+   "version": "1.1",
+   "author": "koader",
+   "author_url": "https://github.com/Koader",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://gist.github.com/koader/168b9ee8c22c9b5fd3c0462d8107bd59",
+   "download": "https://gist.githubusercontent.com/koader/168b9ee8c22c9b5fd3c0462d8107bd59/raw/d82521ce8f922fd9744470cff9f8f4771f854efd/align_tool.py",
+   "sha256": "5e37989a31dbdec289d7028ad2816d936be7fd5967f84dad2fac823e9d5d8b9d",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "productivity"
+   ],
+   "name": {
+    "es": "Herramienta Alinear",
+    "en": "Align Tool",
+    "pt": "Ferramenta Alinhar"
+   },
+   "summary": {
+    "es": "Alinea objetos por anclas de un cubo (seis manijas), en bloque o uno por uno; cada alineación se deshace en un paso. Mayús+S.",
+    "en": "Aligns objects by anchors on a cube (six handles), as a whole or one by one; each align is one undo step. Shift+S.",
+    "pt": "Alinha objetos por âncoras de um cubo (seis alças), em bloco ou um a um; cada alinhamento é um passo de desfazer. Shift+S."
+   },
+   "description": {
+    "en": "Two-phase align tool for IngeTrazo. Pick a source anchor from six cube handles, click the same cube again to toggle per-object mode (green = whole-selection, purple = per-object), click a target object and pick its anchor, then press Enter. Only the source moves; every align is one undo step. Toggle the tool with Shift+S."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-21T20:41Z",
+   "updated_at": "2026-10-21T20:41Z"
+  },
+  {
    "id": "custom_icons",
    "version": "1.1",
    "author": "APBureauEtude",
@@ -904,6 +962,42 @@
    "reviewed": false,
    "added_at": "2026-10-05T14:35Z",
    "updated_at": "2026-10-05T14:35Z"
+  },
+  {
+   "id": "ingescan",
+   "version": "1.0.0",
+   "author": "Jorge Rodríguez Pérez",
+   "author_url": "https://github.com/Jorgemrp",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/Jorgemrp/IngeScan",
+   "download": "https://raw.githubusercontent.com/Jorgemrp/IngeScan/71a62ffc65814360a295ebaa377e48ff178072be/ingescan.py",
+   "sha256": "1885d1d5c23b2b38b1d8321efa931e8375b54fac024a0a73a78857255b89ec2a",
+   "ingetrazo": "0.5.8",
+   "tags": [
+    "import-export",
+    "bim",
+    "analysis",
+    "architecture"
+   ],
+   "screenshot": "ingescan.png",
+   "name": {
+    "es": "IngeScan — Nubes de Puntos y Escaneos 3D",
+    "en": "IngeScan — Point Clouds & 3D Scans",
+    "pt": "IngeScan — Nuvens de Pontos e Digitalizações 3D"
+   },
+   "summary": {
+    "es": "Importa, alinea, secciona e inspecciona nubes de puntos LiDAR (.dae, .ply, .xyz, .las, .e57) con Snap, oclusión y mapa de desviaciones.",
+    "en": "Import, align, section and inspect LiDAR point clouds (.dae, .ply, .xyz, .las, .e57) with snapping, solid occlusion and inspection map.",
+    "pt": "Importa, alinha, secciona e inspeciona nuvens de pontos LiDAR (.dae, .ply, .xyz, .las, .e57) com Snap, oclusão e mapa de desvios."
+   },
+   "description": {
+    "es": "Permite importar escaneos 3D y nubes de puntos (COLLADA .dae con textura JPG, PLY, XYZ, LAS y ASTM E57) sin librerías externas. Incluye bloqueo como plantilla inerte para modelar encima con Snap magnético, transformación libre con Mover (M) y Rotar (Q), oclusión en profundidad tras caras sólidas, corte horizontal de planta (Sección Z) y Mapa de Inspección de desviaciones (gradiente Verde-Amarillo-Rojo con tolerancia ajustable en vivo).",
+    "en": "Import 3D scans and point clouds (COLLADA .dae with JPG texture, PLY, XYZ, LAS, and ASTM E57) with zero external dependencies. Features template locking for magnetic point snapping, interactive Move (M) and Rotate (Q), hardware depth occlusion behind solid faces, horizontal Z-sectioning, and a real-time Green-Yellow-Red Deviation Inspection Map.",
+    "pt": "Permite importar digitalizações 3D e nuvens de pontos (COLLADA .dae com textura JPG, PLY, XYZ, LAS e ASTM E57) sem dependências externas. Inclui bloqueio como modelo de referência com Snap magnético, oclusão atrás de faces sólidas, secção horizontal Z e Mapa de Inspeção de desvios em tempo real."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-21T20:41Z",
+   "updated_at": "2026-10-21T20:41Z"
   },
   {
    "id": "ingetrazo_curve_tools",
