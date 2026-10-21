@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-21T20:41Z",
+ "generated": "2026-10-21T20:42Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1038,6 +1038,7 @@
     "architecture",
     "drawing"
    ],
+   "screenshot": "unfold.png",
    "name": {
     "es": "IngeTrazo Unfold",
     "en": "IngeTrazo Unfold",
