@@ -13,6 +13,7 @@ sha256 = "a4d00b791097847ea78bd1e785a65faba791b8a829c95cf691797789e6348a4a"
 ingetrazo = "0.5.8"
 
 tags = ["drawing", "productivity"]
+screenshot = "crear_cara.jpg"
 
 [name]
 es = "Crear cara desde aristas"
