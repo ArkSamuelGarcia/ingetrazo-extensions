@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-22T14:29Z",
+ "generated": "2026-10-22T15:21Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1243,6 +1243,7 @@
     "fabrication",
     "import-export"
    ],
+   "screenshot": "cutlist.png",
    "name": {
     "en": "Cut List · parts, supplier exports, cutting diagrams",
     "es": "Lista de corte · piezas, proveedores, planos de corte",
