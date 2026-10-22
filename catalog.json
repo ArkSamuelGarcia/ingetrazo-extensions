@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-22T05:24Z",
+ "generated": "2026-10-22T14:29Z",
  "tags": [
   "analysis",
   "architecture",
@@ -533,6 +533,7 @@
     "drawing",
     "productivity"
    ],
+   "screenshot": "crear_cara.jpg",
    "name": {
     "es": "Crear cara desde aristas",
     "en": "Face from edges",
