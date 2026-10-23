@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-23T18:15Z",
+ "generated": "2026-10-23T19:27Z",
  "tags": [
   "analysis",
   "architecture",
@@ -691,13 +691,13 @@
   },
   {
    "id": "node_editor",
-   "version": "1.4",
+   "version": "1.5",
    "author": "seghier",
    "author_url": "https://github.com/seghier",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/seghier/IngeTrazoNodeEditor",
-   "download": "https://github.com/seghier/IngeTrazoNodeEditor/releases/download/v1.4/node_editor.zip",
-   "sha256": "d76a825c125433be0d59294e20b9c7238dd7608bf09dc383fc8c8826ab64cd53",
+   "download": "https://github.com/seghier/IngeTrazoNodeEditor/releases/download/v1.5/node_editor.zip",
+   "sha256": "03baf0e537263eb58341a6c9114e052c324ff488e1846123f45898df6a6fdbe5",
    "ingetrazo": "0.5.7",
    "tags": [
     "productivity",
@@ -716,7 +716,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:30Z",
-   "updated_at": "2026-10-23T12:23Z"
+   "updated_at": "2026-10-23T19:27Z"
   },
   {
    "id": "igz_tb_scenes",
