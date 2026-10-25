@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-24T18:30Z",
+ "generated": "2026-10-25T01:36Z",
  "tags": [
   "analysis",
   "architecture",
@@ -716,7 +716,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:30Z",
-   "updated_at": "2026-10-23T19:27Z"
+   "updated_at": "2026-10-25T01:06Z"
   },
   {
    "id": "igz_tb_scenes",
@@ -783,6 +783,36 @@
    "updated_at": "2026-10-20T19:13Z"
   },
   {
+   "id": "go_factory_generator",
+   "version": "0.3.0",
+   "author": "GO Engineering",
+   "author_url": "https://github.com/buildsmart888",
+   "license": "Apache-2.0",
+   "repository": "https://github.com/buildsmart888/go-factory-generator",
+   "download": "https://raw.githubusercontent.com/buildsmart888/go-factory-generator/c41563f22d78d2f85b43acca6c856ecc971c73cf/dist/go_factory_generator-v0.3.0.zip",
+   "sha256": "17f8db4b9e3946763f050097992667217d8e80b76cfb43557ec39147e5f5a273",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "structures",
+    "bim",
+    "fabrication",
+    "productivity"
+   ],
+   "name": {
+    "es": "GO Factory Generator",
+    "en": "GO Factory Generator",
+    "pt": "GO Factory Generator"
+   },
+   "summary": {
+    "es": "Generador paramétrico de naves y galpones metálicos: cubiertas (a dos aguas, curva, hipsa, diente de sierra, cruz), cerchas (Pratt, Howe, Warren, Fink, curvas), riostras, perfiles y medición de cantidades.",
+    "en": "Parametric steel factory/warehouse generator: roof shapes (gable, mono, hip, gambrel, arched, sawtooth, cross-gable), 14 truss types, bracing, expanded sections and quantity takeoff.",
+    "pt": "Gerador paramétrico de galpões metálicos: coberturas (duas águas, Shed, hip, serra, cruz), 14 tipos de tesouras, contraventamento, perfis e levantamento de quantidades."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-25T01:06Z",
+   "updated_at": "2026-10-25T01:06Z"
+  },
+  {
    "id": "align_tool",
    "version": "1.1",
    "author": "koader",
@@ -811,6 +841,31 @@
    "reviewed": false,
    "added_at": "2026-10-21T20:41Z",
    "updated_at": "2026-10-21T20:41Z"
+  },
+  {
+   "id": "camera_history",
+   "version": "0.11",
+   "author": "vonkozy",
+   "author_url": "https://github.com/vonkozy",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/vonkozy/IngeTenzo-extensions",
+   "download": "https://raw.githubusercontent.com/vonkozy/IngeTenzo-extensions/V1.0.0/camera_history.py",
+   "sha256": "aba3ba32060a3ed7c756f23f4b1632bcf40589ba601f4eea3a4f81054c92f9f1",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "productivity"
+   ],
+   "name": {
+    "en": "Camera history",
+    "es": "Historial de cámara"
+   },
+   "summary": {
+    "en": "Step through the last ten camera stops with Alt+Left and Alt+Right. A stop is kept 0.1 s after the mouse button or the scroll wheel rests.",
+    "es": "Recorre las últimas diez paradas de la cámara con Alt+Left y Alt+Right. Una parada se guarda 0,1 s después de soltar el ratón o la rueda."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-25T01:06Z",
+   "updated_at": "2026-10-25T01:06Z"
   },
   {
    "id": "custom_icons",
@@ -876,6 +931,31 @@
    "reviewed": false,
    "added_at": "2026-10-19T17:29Z",
    "updated_at": "2026-10-19T17:29Z"
+  },
+  {
+   "id": "snap_locked_layers",
+   "version": "0.05",
+   "author": "vonkozy",
+   "author_url": "https://github.com/vonkozy",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/vonkozy/IngeTenzo-extensions",
+   "download": "https://raw.githubusercontent.com/vonkozy/IngeTenzo-extensions/V1.0.0/snap_locked_layers.py",
+   "sha256": "aacd33ac223e07f3f3bd54d6d956c333cf8e34c661870701c5d48b6556ca0122",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "productivity"
+   ],
+   "name": {
+    "en": "Snap to locked layers",
+    "es": "Imantar en capas bloqueadas"
+   },
+   "summary": {
+    "en": "Snap to corners, midpoints and edges of a visible locked layer without unlocking it. A hidden layer is left alone.",
+    "es": "Imanta en esquinas, puntos medios y aristas de una capa bloqueada y visible, sin desbloquearla. Una capa oculta queda fuera."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-25T01:06Z",
+   "updated_at": "2026-10-25T01:06Z"
   },
   {
    "id": "plan_import_tool",
@@ -1315,6 +1395,36 @@
    "reviewed": false,
    "added_at": "2026-10-06T14:35Z",
    "updated_at": "2026-10-06T14:35Z"
+  },
+  {
+   "id": "motion",
+   "version": "0.8.0",
+   "author": "Nicolas Marc",
+   "author_url": "https://github.com/nicolasmarc",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/nicolasmarc/ingetrazo-motion",
+   "download": "https://raw.githubusercontent.com/nicolasmarc/ingetrazo-motion/v0.8.0/dist/motion-0.8.0.zip",
+   "sha256": "859c73ce01007fe720b841d77d3e688e671976c3c4545d343d47cb065b3ce67b",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "fabrication",
+    "analysis",
+    "import-export"
+   ],
+   "screenshot": "motion.png",
+   "name": {
+    "es": "Motion (mecanismos)",
+    "en": "Motion (mechanisms)",
+    "pt": "Motion (mecanismos)"
+   },
+   "summary": {
+    "es": "Mecanismos sobre el modelo: pivotes, correderas, guías, engranajes, varios motores; dinámica y choques; animación, colisiones, holgura mínima, vídeo. Importa ensamblajes STEP.",
+    "en": "Mechanisms on your model: pivots, slides, rails, gears, several motors; dynamics and shocks; playback, collisions, minimum clearance, split-screen video. Imports STEP assemblies.",
+    "pt": "Mecanismos no modelo: pivôs, corrediças, trilhos, engrenagens, vários motores; dinâmica e choques; animação, colisões, folga mínima, vídeo. Importa montagens STEP."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-25T01:06Z",
+   "updated_at": "2026-10-25T01:06Z"
   },
   {
    "id": "ingetrazo_multiview",
@@ -1824,6 +1934,37 @@
    "updated_at": "2026-10-15T14:57Z"
   },
   {
+   "id": "terraroad",
+   "version": "0.8.0-dev",
+   "author": "mtak35",
+   "author_url": "https://github.com/mtak35",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/mtak35/TerraRoad",
+   "download": "https://raw.githubusercontent.com/mtak35/TerraRoad/v0.8.0-dev/releases/TerraRoad-IngeTrazo-0.8.0-dev-catalog.zip",
+   "sha256": "c1ae7262edf384eac0539aca100c2bef8aa43ffe1108148d445930609443eafc",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "drawing",
+    "terrain",
+    "productivity",
+    "import-export"
+   ],
+   "screenshot": "terraroad.png",
+   "name": {
+    "en": "TerraRoad",
+    "es": "TerraRoad",
+    "pt": "TerraRoad"
+   },
+   "summary": {
+    "en": "Road design development preview: centerlines, face roads, junctions, roundabouts, curbs, sidewalks, markings, lighting and map tracing. Metric/imperial units.",
+    "es": "Diseño vial en desarrollo: ejes, vías desde caras, cruces, rotondas, bordillos, aceras, marcas, alumbrado y trazado sobre mapas. Unidades métricas e imperiales.",
+    "pt": "Projeto viário em desenvolvimento: eixos, vias a partir de faces, cruzamentos, rotatórias, meios-fios, calçadas, marcações, iluminação e traçado sobre mapas. Unidades métricas e imperiais."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-25T01:06Z",
+   "updated_at": "2026-10-25T01:06Z"
+  },
+  {
    "id": "texture_library",
    "version": "1.0.0",
    "author": "aashishzharbade-arch",
@@ -1958,6 +2099,31 @@
    "reviewed": false,
    "added_at": "2026-10-11T14:25Z",
    "updated_at": "2026-10-11T14:25Z"
+  },
+  {
+   "id": "grok_provider",
+   "version": "0.01",
+   "author": "vonkozy",
+   "author_url": "https://github.com/vonkozy",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/vonkozy/IngeTenzo-extensions",
+   "download": "https://raw.githubusercontent.com/vonkozy/IngeTenzo-extensions/V1.0.0/grok_provider.py",
+   "sha256": "ec59053d7b90b7cc05884679b9b8ad704a5f1190baa09c2faa7d12d4dcf2f7f2",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "productivity"
+   ],
+   "name": {
+    "en": "xAI Grok",
+    "es": "xAI Grok"
+   },
+   "summary": {
+    "en": "Adds xAI (Grok) to the built-in AI Assistant. Calls go to api.x.ai. The key stays in your user profile, not in the .igz.",
+    "es": "Añade xAI (Grok) al asistente de IA. Las llamadas van a api.x.ai. La clave queda en tu perfil, no en el .igz."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-25T01:06Z",
+   "updated_at": "2026-10-25T01:06Z"
   }
  ]
 }
