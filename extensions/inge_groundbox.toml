@@ -1,0 +1,35 @@
+# IngeTrazo Community Extensions Catalog Entry
+# Place this file in `ingelibre/ingetrazo-extensions` under `extensions/inge_groundbox.toml`
+# to publish on https://ingetrazo.com/en/extensiones
+
+id = "inge_groundbox"
+version = "1.0"
+author = "Hris (Krzysztof)"
+author_url = "https://github.com/hrisek"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/hrisek/IngeGroundBox"
+
+# The exact file users install: a .zip holding ONE folder with an __init__.py
+download = "https://github.com/hrisek/IngeGroundBox/releases/download/1.0/inge_groundbox.zip"
+sha256 = "c6919db688eaad64b80109281136ef0d4714223ef5669bd0fd41e17b3b7c2712"
+
+# IngeTrazo version tested with
+ingetrazo = "0.5.9"
+
+# 1 to 4 tags from: analysis, architecture, bim, drawing, education, fabrication,
+# import-export, other, productivity, rendering, structures, terrain
+tags = ["terrain", "analysis", "bim", "architecture"]
+
+# Screenshot in screenshots/ directory of ingetrazo-extensions repo
+# Make sure screenshots/ground.jpg is included in your PR, or comment this line out:
+screenshot = "ground.jpg"
+
+[name]
+en = "IngeGroundBox · Terrain modeling"
+es = "IngeGroundBox · Modelado de terreno"
+pt = "IngeGroundBox · Modelagem de terreno"
+
+[summary]
+en = "TIN terrain modeling, contour generation, sculpting, road draping, cut & fill calculations and slope analysis for civil and landscape design."
+es = "Modelado de terreno TIN, curvas de nivel, escultura, drapeado de caminos, cálculo de desmonte y terraplén y análisis de pendientes para ingeniería y paisaje."
+pt = "Modelagem de terreno TIN, curvas de nível, escultura, projeção de vias, cálculo de corte e aterro e análise de declividade para engenharia e paisagismo."
