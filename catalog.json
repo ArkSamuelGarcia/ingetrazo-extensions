@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-26T05:39Z",
+ "generated": "2026-10-26T19:33Z",
  "tags": [
   "analysis",
   "architecture",
@@ -690,14 +690,14 @@
   },
   {
    "id": "divide_points",
-   "version": "0.2.1",
+   "version": "0.2.2",
    "author": "G. Andreotti",
    "author_url": "https://github.com/joejivaros",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/joejivaros/Plugin",
    "screenshot": "divide_points.png",
-   "download": "https://github.com/joejivaros/Plugin/releases/download/v0.2.1/divide_points-v0.2.1.zip",
-   "sha256": "f565e0f94207a46f84a6dcf09408d949fded035664ebe70bb082c01da31abf2c",
+   "download": "https://github.com/joejivaros/Plugin/releases/download/divide_points-v0.2.2/divide_points-v0.2.2.zip",
+   "sha256": "0977be7c85df33c39330e41c2018cf69b556cc45d01e10619f3a30e71d1fce28",
    "ingetrazo": "0.5.7",
    "tags": [
     "drawing",
@@ -715,7 +715,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-13T22:15Z",
-   "updated_at": "2026-10-13T22:15Z"
+   "updated_at": "2026-10-26T19:18Z"
   },
   {
    "id": "node_editor",
@@ -1286,13 +1286,13 @@
   },
   {
    "id": "cleaning",
-   "version": "0.1.1",
+   "version": "0.1.2",
    "author": "G. Andreotti",
    "author_url": "https://github.com/joejivaros",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/joejivaros/Plugin",
-   "download": "https://github.com/joejivaros/Plugin/releases/download/cleaning-v0.1.1/cleaning-v0.1.1.zip",
-   "sha256": "c6a2c20c69d6f3f444441df44faa1a1ad9d1d3c3144dcaa8fae053ef7e9d8646",
+   "download": "https://github.com/joejivaros/Plugin/releases/download/cleaning-v0.1.2/cleaning-v0.1.2.zip",
+   "sha256": "fb3c939e8dd38926d69954354be86672664a4270d5382fcfd0d61dfe586b10c2",
    "ingetrazo": "0.5.9",
    "tags": [
     "productivity",
@@ -1310,7 +1310,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-21T20:30Z",
-   "updated_at": "2026-10-21T20:30Z"
+   "updated_at": "2026-10-26T19:18Z"
   },
   {
    "id": "lista_corte_marcenaria",
