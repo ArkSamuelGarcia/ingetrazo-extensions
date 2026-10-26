@@ -462,6 +462,34 @@
    "updated_at": "2026-10-21T20:30Z"
   },
   {
+   "id": "lines_connect",
+   "version": "1.3.0",
+   "author": "Aymen Alhaddad",
+   "author_url": "https://github.com/aymenart",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aymenart/lines_connect_ingetrazo",
+   "download": "https://github.com/aymenart/lines_connect_ingetrazo/releases/download/v1.3.0/lines_connect_ingetrazo_v1.3.0.zip",
+   "sha256": "d30f35d73a70aef6292f18212734752a659215379225226ca7e754b854b310d6",
+   "ingetrazo": "0.5.8",
+   "tags": [
+    "drawing",
+    "productivity",
+    "architecture"
+   ],
+   "screenshot": "lines_connect.png",
+   "name": {
+    "en": "Lines Connect",
+    "es": "Conectar Líneas (Lines Connect)"
+   },
+   "summary": {
+    "en": "Interactive 3D edge connection, T-junction trimming, fillet corner extension, gap closing, and arc-to-circle completion.",
+    "es": "Conexión interactiva 3D de aristas, recorte en T, extensión a esquina, cierre de huecos y arco a círculo completo."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-25T01:06Z",
+   "updated_at": "2026-10-25T01:06Z"
+  },
+  {
    "id": "loop_cut",
    "version": "1.1.0",
    "author": "Daniel Wagner",
@@ -1014,6 +1042,37 @@
    "reviewed": false,
    "added_at": "2026-10-05T14:35Z",
    "updated_at": "2026-10-05T14:35Z"
+  },
+  {
+   "id": "inge_groundbox",
+   "version": "1.0",
+   "author": "Hris (Krzysztof)",
+   "author_url": "https://github.com/hrisek",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/hrisek/IngeGroundBox",
+   "download": "https://github.com/hrisek/IngeGroundBox/releases/download/1.0/inge_groundbox.zip",
+   "sha256": "c6919db688eaad64b80109281136ef0d4714223ef5669bd0fd41e17b3b7c2712",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "terrain",
+    "analysis",
+    "bim",
+    "architecture"
+   ],
+   "screenshot": "ground.jpg",
+   "name": {
+    "en": "IngeGroundBox · Terrain modeling",
+    "es": "IngeGroundBox · Modelado de terreno",
+    "pt": "IngeGroundBox · Modelagem de terreno"
+   },
+   "summary": {
+    "en": "TIN terrain modeling, contour generation, sculpting, road draping, cut & fill calculations and slope analysis for civil and landscape design.",
+    "es": "Modelado de terreno TIN, curvas de nivel, escultura, drapeado de caminos, cálculo de desmonte y terraplén y análisis de pendientes para ingeniería y paisaje.",
+    "pt": "Modelagem de terreno TIN, curvas de nível, escultura, projeção de vias, cálculo de corte e aterro e análise de declividade para engenharia e paisagismo."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-25T01:07Z",
+   "updated_at": "2026-10-26T05:39Z"
   },
   {
    "id": "ingescan",
@@ -2018,6 +2077,34 @@
    "reviewed": false,
    "added_at": "2026-10-04T05:08Z",
    "updated_at": "2026-10-19T17:28Z"
+  },
+  {
+   "id": "trim_fillet",
+   "version": "1.0.0",
+   "author": "Aymen Alhaddad",
+   "author_url": "https://github.com/aymenart",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aymenart/trim_fillet",
+   "download": "https://github.com/aymenart/trim_fillet/releases/download/v1.0.0/trim_fillet_v1.0.0.zip",
+   "sha256": "0f0541c6892940d126c1646c4413289f9f88b41737ae1b134ca9c5752deb568d",
+   "ingetrazo": "0.5.8",
+   "tags": [
+    "drawing",
+    "productivity",
+    "architecture"
+   ],
+   "screenshot": "trim_fillet.png",
+   "name": {
+    "en": "Trim & Fillet",
+    "es": "Trim y Fillet"
+   },
+   "summary": {
+    "en": "Professional trimming suite with Quick Trim, Boundary Trim, tangent Fillet arcs with real-time VCB radius entry, and Chamfer bevels.",
+    "es": "Suite profesional con Recorte Rápido, Recorte por Límite, Arcos de Empalme con radio VCB en tiempo real y Chaflán."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-26T05:39Z",
+   "updated_at": "2026-10-26T05:39Z"
   },
   {
    "id": "ui_colores_space",
