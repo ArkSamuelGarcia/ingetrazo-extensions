@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-27T16:39Z",
+ "generated": "2026-10-27T22:22Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1411,6 +1411,7 @@
     "rendering",
     "productivity"
    ],
+   "screenshot": "ingetrazo_lite_bridge.jpg",
    "name": {
     "es": "Lite Bridge: renderizado con IA",
     "en": "Lite Bridge: AI rendering",
