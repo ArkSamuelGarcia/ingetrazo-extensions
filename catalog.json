@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-27T22:22Z",
+ "generated": "2026-10-27T22:49Z",
  "tags": [
   "analysis",
   "architecture",
@@ -809,6 +809,42 @@
    "reviewed": false,
    "added_at": "2026-10-15T15:47Z",
    "updated_at": "2026-10-20T19:13Z"
+  },
+  {
+   "id": "html_export",
+   "version": "0.1.0",
+   "author": "PRIDA-TAKON",
+   "author_url": "https://github.com/PRIDA-TAKON",
+   "license": "MIT",
+   "repository": "https://github.com/PRIDA-TAKON/ingetrazo-to-html",
+   "download": "https://github.com/PRIDA-TAKON/ingetrazo-to-html/releases/download/v0.1.0/html_export.zip",
+   "sha256": "910a8e6b37a91d94337443bfb0ee0b10f2c57b8b49425eb93f8bb33e29ecc01f",
+   "ingetrazo": "0.5.7",
+   "screenshot": "html_export.png",
+   "tags": [
+    "import-export",
+    "rendering",
+    "architecture",
+    "productivity"
+   ],
+   "name": {
+    "en": "Export 3D HTML Viewer",
+    "es": "Exportar visor HTML 3D",
+    "pt": "Exportar visualizador HTML 3D"
+   },
+   "summary": {
+    "en": "Export 3D models into standalone HTML files to share with clients who don't have IngeTrazo. Opens on any device without software.",
+    "es": "Exporta modelos 3D a archivos HTML independientes para compartir con clientes que no tienen IngeTrazo. Se abre en cualquier navegador.",
+    "pt": "Exporte modelos 3D em arquivos HTML autônomos para compartilhar com clientes que não têm o IngeTrazo. Abre em qualquer navegador."
+   },
+   "description": {
+    "en": "Export completed 3D architectural models with textures and crisp edge lines into a single standalone .html file. Perfect for sending to clients, contractors, and collaborators who do NOT have IngeTrazo installed. Can be opened by double-clicking in any web browser (Chrome, Edge, Safari, Firefox) on PC, Mac, iPad, iPhone, and Android completely offline without installing any software or plugins.",
+    "es": "Exporta modelos arquitectónicos 3D terminados con texturas y aristas nítidas a un único archivo .html independiente. Ideal para enviar a clientes, constructores y colaboradores que NO tienen IngeTrazo instalado. Se abre con doble clic en cualquier navegador web en PC, Mac o teléfonos móviles, de forma 100% autónoma y sin conexión.",
+    "pt": "Exporte modelos arquitetônicos 3D concluídos com texturas e arestas nítidas em um único arquivo .html autônomo. Perfeito para enviar a clientes, construtores e colaboradores que NÃO possuem o IngeTrazo instalado. Abre com duplo clique em qualquer navegador web no PC ou celular, totalmente offline e sem instalar programas."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-27T11:46Z",
+   "updated_at": "2026-10-27T11:46Z"
   },
   {
    "id": "go_factory_generator",
