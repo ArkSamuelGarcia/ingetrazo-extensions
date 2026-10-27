@@ -9,6 +9,8 @@ sha256 = "d67fda3e4ee4154d421f78d2b3f819e87036d9cbd82fa094ad39b8ed85d7b95f"
 ingetrazo = "0.5.9"
 tags = ["rendering", "productivity"]
 
+screenshot = "ingetrazo_lite_bridge.jpg"
+
 [name]
 es = "Lite Bridge: renderizado con IA"
 en = "Lite Bridge: AI rendering"
